@@ -32,7 +32,7 @@ class NavAuth extends Component {
 
     // validation
     if (!~email.indexOf('@')) errors.email="email doesn't have @ sign";
-    if (password.length < 6) errors.password="password is not long enough";
+    if (password.length < 6) errors.password='password is not long enough';
 
     // update local state with errors
     this.setState(_.merge({}, this.state, {errors}));

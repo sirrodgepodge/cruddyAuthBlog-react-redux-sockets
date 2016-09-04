@@ -7,7 +7,7 @@ export const socketActions = [
   actionTypes.ADD_POST,
   actionTypes.DELETE_POST,
   actionTypes.UPDATE_POST,
-  actionTypes.EDIT_POST // this listener is channel specific (defined on server-side)
+  actionTypes.EDIT_POST, // this listener is channel specific (defined on server-side)
 ];
 
 function rootReducer(state = initialState, action) {
