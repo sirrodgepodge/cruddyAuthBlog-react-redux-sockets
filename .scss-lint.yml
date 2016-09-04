@@ -1,0 +1,5 @@
+scss_files: 'shared/**/*.scss'
+
+linters:
+  PropertySortOrder:
+    enabled: false

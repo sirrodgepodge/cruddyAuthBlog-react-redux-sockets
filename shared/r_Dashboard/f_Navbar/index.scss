@@ -1,0 +1,32 @@
+.cruddy-auth-blog-nav {
+    border-radius: 0;
+    background-color: #332f2b;
+    padding-right: 15px;
+    height: 87px;
+}
+
+.cruddy-auth-blog-nav > * {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-header {
+    z-index: 1;
+    cursor: pointer;
+}
+
+.navbar-brand,
+.navbar-brand:visited,
+.navbar-brand:focus {
+    color: #e0e4e4;
+    font-size: 23px;
+    font-weight: 200;
+    margin-right: 22px;
+    transition: color 0.2s ease-in-out;
+    padding-left: 15px;
+}
+
+.navbar-brand b {
+  font-weight: 500;
+}
